@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_foods"
+        >
+    <TextView
+        android:id="@+id/foods_txt_view"
+        style="@style/CategoryStyle"
+        android:text="Foods"
+        android:background="?android:attr/selectableItemBackground"
+        />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_forts">
+
+    <TextView
+        android:id="@+id/forts_txt_view"
+        style="@style/CategoryStyle"
+        android:text="Forts"
+        android:background="?android:attr/selectableItemBackground"
+        />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_fun">
+
+    <TextView
+        android:id="@+id/fun_txt_view"
+        style="@style/CategoryStyle"
+        android:text="Fun Places"
+        android:background="?android:attr/selectableItemBackground"
+        />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_damandpark">
+
+    <TextView
+        android:id="@+id/damsandparks_txt_view"
+        style="@style/CategoryStyle"
+        android:text="Dam and Parks"
+        android:background="?android:attr/selectableItemBackground"
+        />
+
+    </FrameLayout>
+
+</LinearLayout>
